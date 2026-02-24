@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>68051456 ชัยสิทธิ์ นิลศรี</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #e9ecef;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: url('https://images.unsplash.com/photo-1505761671935-60b3a7427bad') no-repeat center center;
+            background-size: cover;
+            height: 300px;
+            position: relative;
+        }
+
+        .hero-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 28px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        /* Navbar */
+        .navbar-custom {
+            background-color: #343a40;
+        }
+
+        .navbar-custom .navbar-brand,
+        .navbar-custom .nav-link {
+            color: white !important;
+        }
+
+        /* Form Card */
+        .form-card {
+            width: 450px;
+            margin: -50px auto 40px auto;
+        }
+
+        .card-header {
+            background-color: #0d6efd;
+            color: white;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-custom">
+    <div class="container">
+        <a class="navbar-brand" href="#">ICT12367 SPU</a>
+        <div class="ms-auto">
+            <a class="nav-link d-inline" href="#">หน้าแรก</a>
+            <a class="nav-link d-inline" href="#">ลงทะเบียน</a>
+            <a class="nav-link d-inline" href="#">เกี่ยวกับเรา</a>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero -->
+<div class="hero">
+    <div class="hero-text">
+        ยินดีต้อนรับสู่เว็บไซต์ของรายวิชา ICT12367
+    </div>
+</div>
+
+<!-- Form -->
+<div class="card form-card shadow">
+    <div class="card-header">
+        แบบฟอร์มบันทึกข้อมูลประชากร
+    </div>
+    <div class="card-body">
+        <form>
+            <div class="mb-3">
+                <label class="form-label">ชื่อ-นามสกุล</label>
+                <input type="text" class="form-control" placeholder="กรอกชื่อ-นามสกุล">
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">อายุ</label>
+                <input type="number" class="form-control" placeholder="กรอกอายุเป็นตัวเลข">
+            </div>
+
+            <button type="submit" class="btn btn-success">ลงทะเบียน</button>
+            <button type="reset" class="btn btn-danger">ล้างข้อมูล</button>
+        </form>
+    </div>
+</div>
+
+<!-- Footer -->
+<div class="footer">
+    © 2024 ICT12367 SPU | Information Technology
+</div>
+
+</body>
+</html>
